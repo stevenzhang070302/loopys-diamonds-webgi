@@ -4,8 +4,8 @@ A vanilla TypeScript project using the WebGi engine to showcase a diamond ring, 
 Deployed on Vercel: [Loopy's Diamonds WebGi](https://loopys-diamonds-webgi.vercel.app/)
 
 ### Demo
-![Loopy's Diamonds WebGi](https://raw.githubusercontent.com/yourusername/loopys-diamonds-webgi/main/assets/Diamond_demo_1.png)
-![Loopy's Diamonds WebGi](https://raw.githubusercontent.com/yourusername/loopys-diamonds-webgi/main/assets/Diamond_demo_2.png)
+![Loopy's Diamonds WebGi](https://raw.githubusercontent.com/stevenzhang070302/loopys-diamonds-webgi/main/assets/Diamond_demo_1.png)
+![Loopy's Diamonds WebGi](https://raw.githubusercontent.com/stevenzhang070302/loopys-diamonds-webgi/main/assets/Diamond_demo_2.png)
 
 ## About WebGi
 WebGi is a powerful and flexible 3D engine designed for creating immersive 3D experiences in the web. For more information, visit the [WebGi website](https://webgi.xyz/).
