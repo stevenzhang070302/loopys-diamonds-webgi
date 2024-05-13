@@ -18,7 +18,7 @@ Make sure you have Node.js and npm installed. You can download them from [Node.j
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/loopys-diamonds-webgi.git
+   git clone https://github.com/stevenzhang070302/loopys-diamonds-webgi.git
    cd loopys-diamonds-webgi
 2. Install the dependencies:
    ```bash
