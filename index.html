@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Loopy's Diamonds</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="loader">
+		<p>
+			Loading... Please Wait...
+		</p>
+		<div class="progress" id="progress-spinner"></div>
+	</div>
+
+	<nav class="navbar">
+		<!-- <img class="logo" src="assets/logo.svg"> -->
+		<h3 class="logo">💎Loopy's Diamonds💎</h3>
+		<button class="button-navbar">BUY NOW</button>
+	</nav>
+
+	<div class="container">
+		<section class="section first">
+			<div class="section-one-container">
+				<h1>Exquisite Diamonds</h1>
+				<p>
+					Explore the brilliance and beauty of our hand-selected diamonds, crafted to
+					perfection with unmatched precision. Experience the ultimate luxury with our
+					exclusive collection that shines in every light. Our diamonds offer unparalleled
+					clarity and color, ensuring a stunning display of elegance and sophistication.
+				</p>
+				<button class="button-hero">KNOW MORE</button>
+			</div>
+		</section>
+	
+		<section class="section second">
+			<div class="section-two-container">
+				<div class="section-two-text">
+					<h2>Unmatched Craftsmanship</h2>
+					<p>
+						Each diamond is a masterpiece of nature, enhanced by our skilled artisans.
+						With meticulous attention to detail, we ensure every facet sparkles with
+						maximum brilliance. Our comfortable, transparent buying process and
+						knowledgeable staff make selecting your perfect diamond an enjoyable and
+						informative experience.
+					</p>
+				</div>    
+				<div class="custom-bg"></div>
+			</div>
+		</section>
+	
+		<section class="section third">
+			<div class="section-third-container">
+				<h2>Customize Your Jewel</h2>
+				<p>
+					Create a piece as unique as you are with our customization options. Choose
+					from a variety of settings, metals, and designs to pair with your chosen diamond.
+					Whether you're looking for an engagement ring, a memorable gift, or a personal
+					treasure, our experts are here to help you craft the perfect piece.
+					<button class="button-customize">CUSTOMIZE</button>
+				</p>
+			</div>
+		</section>
+		
+		<footer>
+			<button class="button-footer">BACK TO TOP</button>
+		</footer>
+	</div>
+
+	<div id="webgi-canvas-container">
+		<canvas id="webgi-canvas"></canvas>
+		<button class="button-customize button-exit">EXIT</button>
+	</div>
+
+	<div class="customizer-container">
+		<ul class="strap-colors">
+			<li class="button-colors red"></li>
+			<li class="button-colors blue"></li>
+			<li class="button-colors white"></li>
+		</ul>
+	</div>
+
+	<script src="src/index.ts" type="module"></script>
+</body>
+
+</html>
